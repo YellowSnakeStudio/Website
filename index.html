@@ -23,6 +23,9 @@
   <!-- Theme CSS - Includes Bootstrap -->
   <link href="css/creative.min.css" rel="stylesheet">
 
+  <!-- Custom -->
+  <link href="css/custom.css" rel="stylesheet">
+
 </head>
 
 <body id="page-top">
@@ -40,7 +43,10 @@
             <a class="nav-link js-scroll-trigger" href="#about">Sobre</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#portfolio">Games</a>
+            <a class="nav-link js-scroll-trigger" href="#games">Games</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#game-jams">Game Jams</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#contact">Contato</a>
@@ -59,7 +65,7 @@
           <hr class="divider my-4">
         </div>
         <div class="col-lg-8 align-self-baseline">
-          <p class="text-white-75 font-weight-light mb-5">A Yellow Snake busca criar jogos que instiguem o jogador enquanto joga!</p>
+          <p class="text-white-75 font-weight-light mb-5">A Yellow Snake busca criar jogos que instiguem o jogador!</p>
           <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Saiba mais</a>
         </div>
       </div>
@@ -82,37 +88,11 @@
 
   <!-- Games Section -->
   <section id="portfolio">
-    <div class="container-fluid p-0">
+    <div id="games" class="container-fluid p-0">
       <div class="row no-gutters">
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/1.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/1.jpg" alt="">
-            <div class="portfolio-box-caption">
-              <div class="project-category text-white-50">
-                Game
-              </div>
-              <div class="project-name">
-                Labiralg (Beta)
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/2.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/2.jpg" alt="">
-            <div class="portfolio-box-caption">
-              <div class="project-category text-white-50">
-                Game
-              </div>
-              <div class="project-name">
-                Shapezoid
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/3.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/3.jpg" alt="">
+        <div class="col-lg-12 col-sm-12">
+          <a class="portfolio-box" href="https://play.google.com/store/apps/details?id=com.GuilhermeDallBello.Labiralg&hl=en_US">
+            <img class="img-fluid" src="img/labiralg/labiralg.png" alt="">
             <div class="portfolio-box-caption">
               <div class="project-category text-white-50">
                 Game
@@ -127,13 +107,76 @@
     </div>
   </section>
 
+  <!-- About Section -->
+  <section class="page-section bg-primary" id="about">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center">
+          <h2 class="text-white mt-0">Game Jams</h2>
+          <hr class="divider light my-4">
+          <p class="text-white-50 mb-4">Conheça nossos jogos desenvolvidos em Game Jams!</p>
+          <a class="btn btn-light btn-xl js-scroll-trigger" href="#portfolio">Mostre-me!</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Game Jams Section -->
+  <section id="portfolio">
+    <div id="game-jams" class="container-fluid p-0">
+      <div class="row no-gutters">
+        <div class="col-lg-4 col-sm-6">
+          <a class="portfolio-box" href="https://kampari.itch.io/shapezoid">
+            <img class="img-fluid" style="width: 100%; height: 100%;" src="img/shapezoid/shapezoid-logo.png" alt="">
+            <div class="portfolio-box-caption">
+              <div class="project-category text-white-50">
+                Game Jam
+              </div>
+              <div class="project-name">
+                Shapezoid
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <a class="portfolio-box" href="https://kampari.itch.io/the-shot">
+            <img class="img-fluid" style="width: 100%; height: 100%;" src="img/the-shot/the-shot-logo.png" alt="">
+            <div class="portfolio-box-caption">
+              <div class="project-category text-white-50">
+                Game Jam
+              </div>
+              <div class="project-name">
+                The Shot!
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <a class="portfolio-box" href="https://kampari.itch.io/unreliable">
+            <img class="img-fluid" style="width: 100%; height: 100%;" src="img/unreliable/unreliable-logo.png" alt="">
+            <div class="portfolio-box-caption">
+              <div class="project-category text-white-50">
+                Game Jam
+              </div>
+              <div class="project-name">
+                Unreliable
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- Call to Action Section -->
+  <!--
   <section class="page-section bg-dark text-white">
     <div class="container text-center">
       <h2 class="mb-4">Baixe na Play Store!</h2>
       <a class="btn btn-light btn-xl" href="https://play.google.com/store/apps/developer?id=Yellow+Snake&hl=en_US">Baixe agora!</a>
     </div>
   </section>
+  -->
 
   <!-- Contact Section -->
   <section class="page-section" id="contact">
@@ -142,7 +185,7 @@
         <div class="col-lg-8 text-center">
           <h2 class="mt-0">Entre em contato conosco!</h2>
           <hr class="divider my-4">
-          <p class="text-muted mb-5">Gostou? Não gostou? Envie-nos um feedback para nos ajudar a melhorar!</p>
+          <p class="text-muted mb-5">Envie-nos um feedback para nos ajudar a melhorar!</p>
         </div>
       </div>
       <div class="row">
@@ -153,14 +196,14 @@
         <div class="col-lg-4 mr-auto text-center">
           <i class="fas fa-envelope fa-3x mb-3 text-muted"></i>
           <!-- Make sure to change the email address in anchor text AND the link below! -->
-          <a class="d-block" href="mailto:contact@yourwebsite.com">contact@yourwebsite.com</a>
+          <a class="d-block" href="mailto:contact@yellowsnakestudio.com">contact@yellowsnakestudio.com</a>
         </div>
       </div>
     </div>
   </section>
 
   <!-- Footer -->
-  <footer class="bg-light py-5">
+  <footer class="bg-dark py-5">
     <div class="container">
       <div class="small text-center text-muted">Copyright &copy; 2019 - Yellow Snake</div>
     </div>
