@@ -10672,8 +10672,8 @@ hr.light {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 72px);
-  background: -webkit-gradient(linear, left bottom, left top, color-stop(5%, rgba(34, 34, 34, 0.9975)), to(rgba(92, 77, 66, 0.8))), url("../img/yellow-snake-y.jpg");
-  background: linear-gradient(to top, rgba(34, 34, 34, 0.9975) 5%, rgba(92, 77, 66, 0.8) 100%), url("../img/yellow-snake-y.jpg");
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(5%, rgba(34, 34, 34, 0.9975)), to(rgba(92, 77, 66, 0.8))), url("../img/Yellow-Snake-Dream.jpg");
+  background: linear-gradient(to top, rgba(34, 34, 34, 0.9975) 5%, rgba(92, 77, 66, 0.8) 100%), url("../img/Yellow-Snake-Dream.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
