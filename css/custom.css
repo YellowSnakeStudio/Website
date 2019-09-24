@@ -1,3 +1,8 @@
+.container-fluid[id="games"] {
+    width: 80%;
+    height: 80%;
+}
+
 .portfolio-box {
     width: 100%;
     height: 100%;
